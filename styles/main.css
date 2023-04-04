@@ -27,10 +27,15 @@ h1 {
 .about-me-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin:20px;
-  padding: 40px;
+  padding: 0px 200px 0px 200px;
+}
+.about-me-image {
+  border-radius: 100px;
 }
 .about-me-text {
-
+font-size: 20px;
+margin:50px;
 }
 /* list of blogs */
