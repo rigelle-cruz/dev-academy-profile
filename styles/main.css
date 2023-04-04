@@ -14,15 +14,19 @@
 }
 
 .navbar a {
-  margin-left: 30px;
+  margin: 30px;
   text-align: center;
 }
 
 /* title */
-h1 {
-  font-size: 100px;
-  text-align: center;
+.header-container{
+  margin: 30px 0px 30px 0px;
 }
+.header-text {
+  font-size: 15vmin;
+  text-align: center;
+  }
+
 /* about me */
 .about-me-container {
   display: flex;
@@ -31,11 +35,21 @@ h1 {
   margin:20px;
   padding: 0px 200px 0px 200px;
 }
-.about-me-image {
-  border-radius: 100px;
+
+.about-me-image-container {
+  margin: 10px;
 }
+
+@media (min-height:20px){
+.about-me-image {
+  border-radius: 100%;
+  width: 30vw;
+  }
+}
+
 .about-me-text {
 font-size: 20px;
 margin:50px;
 }
-/* list of blogs */
+/* blogs */
+.blog-container
