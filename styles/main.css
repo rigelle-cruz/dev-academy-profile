@@ -11,12 +11,20 @@ ul, ol {
 body {
   background-color: #F9F9F9;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 html, body {
   min-height: 100%;
 
 }
+
+p, li {
+  font-size: 2vw;
+}
+
 
 /* navigation bar */
 
@@ -65,12 +73,14 @@ nav {
   justify-content: center;
   margin:50px 0px 50px 0px;
   padding: 0px 200px 0px 200px;
+  background-color: gray;
 }
 
 .about-me-image-container {
-  margin: 10px 30px 10px 30px;
   min-width: 200px;
+  padding: 40px;
 }
+
 
 .about-me-image {
   border-radius: 100%;
@@ -79,10 +89,11 @@ nav {
 
 .about-me-text-container {
   padding: 50px;
+  color: white;
 }
 
 .about-me-text {
-  font-size: 50px;
+  font-size: 5vw;
   margin-bottom: 20px;
 }
 /* blogs */
@@ -92,11 +103,12 @@ nav {
   justify-content: center;
   margin:20px;
   padding: 0px 200px 0px 200px;
+  min-width: 200px;
 }
 
+
 .blog-header-container {
-  background-color: blue;
-  min-width: 50vmin; 
+  background-color: gray;
   width: 100%;
   padding: 20px 20px 20px 20px;
 }
@@ -104,10 +116,16 @@ nav {
 .blog-header {
   font-size: 50px;
   text-align: center;
+  color: #F9F9F9;
+}
+
+@media (max-width:650px){
+  .blog-header {
+    font-size:30px;
+  }
 }
 
 .blog-inner-container {
-  min-width: 50vmin;
   width: 100%;
   background-color: bisque;
   margin-top: 20px;
