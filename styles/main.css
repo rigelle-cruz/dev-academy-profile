@@ -22,8 +22,10 @@ html, body {
 }
 
 p, li {
-  font-size: 2vw;
+  font-size: 20px;
+  padding-top: 10px;
 }
+
 
 
 /* navigation bar */
@@ -94,7 +96,6 @@ nav {
 
 .about-me-text {
   font-size: 5vw;
-  margin-bottom: 20px;
 }
 /* blogs */
 .blog-container {
@@ -109,6 +110,7 @@ nav {
 
 .blog-header-container {
   background-color: gray;
+  border-radius: 20px;
   width: 100%;
   padding: 20px 20px 20px 20px;
 }
@@ -127,14 +129,15 @@ nav {
 
 .blog-inner-container {
   width: 100%;
-  background-color: bisque;
+  background-color: #b8b8b8;
+  border-radius: 20px;
   margin-top: 20px;
   padding: 50px 20px 50px 20px;
   text-align: center;
 }
 
 .blog-text-link {
-  font-size: 5vmin;
+  font-size: 3vmin;
 }
 
 
