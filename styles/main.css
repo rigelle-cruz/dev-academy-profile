@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 ul, ol {
@@ -16,10 +17,6 @@ body {
   justify-content: center;
 }
 
-html, body {
-  min-height: 100%;
-
-}
 
 p, li {
   font-size: 20px;
@@ -30,8 +27,6 @@ h3 {
   font-size: 30px;
   padding-top: 30px;
 }
-
-
 
 /* navigation bar */
 
@@ -75,12 +70,21 @@ nav {
 
 /* about me */
 .about-me-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin:40px 0px 40px 0px;
-  padding: 0px 200px 0px 200px;
   background-color: gray;
+  
+}
+
+@media (max-width:800px){
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .about-me-image-container {
@@ -100,24 +104,24 @@ nav {
 }
 
 .about-me-text {
-  font-size: 5vw;
+  font-size: 50px;
 }
 /* blogs */
 .blog-container {
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin:20px;
-  padding: 0px 200px 0px 200px;
   min-width: 200px;
+  max-width: 1000px;
+  margin: auto;
 }
-
 
 .blog-header-container {
   background-color: gray;
   border-radius: 20px;
-  width: 100%;
-  padding: 20px 20px 20px 20px;
+  margin: 10px;
+  padding: 20px 0px 20px 0px;
 }
 
 .blog-header {
@@ -133,16 +137,16 @@ nav {
 }
 
 .blog-inner-container {
-  width: 100%;
   background-color: #b8b8b8;
   border-radius: 20px;
-  margin-top: 20px;
-  padding: 50px 20px 50px 20px;
+  margin: 10px;
+  padding: 50px 0px 50px 0px;
   text-align: center;
 }
 
 .blog-text-link {
   font-size: 3vmin;
+  text-decoration: none;
 }
 
 
