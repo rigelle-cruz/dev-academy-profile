@@ -80,7 +80,7 @@ nav {
   
 }
 
-@media (max-width:800px){
+@media (max-width:900px){
   .about-me-container {
     display: flex;
     flex-direction: column;
@@ -89,14 +89,14 @@ nav {
 }
 
 .about-me-image-container {
-  min-width: 200px;
+  min-width: 50px;
   padding: 40px;
 }
 
 
 .about-me-image {
   border-radius: 100%;
-  max-width: 400px;
+  max-width: 300px;
   }
 
 .about-me-text-container {
