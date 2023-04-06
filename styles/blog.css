@@ -46,7 +46,7 @@ nav {
   width: 100%;
   position: fixed;
   overflow:hidden;
-  background-color: black;
+  background-color: #769bb9;
   opacity: 60%;
   text-align: center;
   padding: 20px;
@@ -63,7 +63,7 @@ nav {
 }
 
 .navbar a:hover {
-  color: black;
+  color: #90cded;
 }
 
 /* blog content */
@@ -76,7 +76,7 @@ nav {
 }
 
 .blog-header-container {
-  background-color: gray;
+  background-color: #769bb9;
   border-radius: 20px;
   width: 100%;
   padding: 20px 0px 20px 0px;

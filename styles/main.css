@@ -39,7 +39,7 @@ nav {
   width: 100%;
   position: fixed;
   overflow:hidden;
-  background-color: black;
+  background-color: #769bb9;
   opacity: 60%;
   text-align: center;
   padding: 20px;
@@ -56,7 +56,7 @@ nav {
 }
 
 .navbar a:hover {
-  color: black;
+  color: #90cded;
 }
 
 /* title */
@@ -65,6 +65,7 @@ nav {
 }
 .header-text {
   font-size: 15vmin;
+  color: #769bb9;
   text-align: center;
   }
 
@@ -75,7 +76,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   margin:40px 0px 40px 0px;
-  background-color: gray;
+  background-color: #769bb9;
   
 }
 
@@ -118,7 +119,7 @@ nav {
 }
 
 .blog-header-container {
-  background-color: gray;
+  background-color: #769bb9;
   border-radius: 20px;
   margin: 10px;
   padding: 20px 0px 20px 0px;
@@ -137,7 +138,7 @@ nav {
 }
 
 .blog-inner-container {
-  background-color: #b8b8b8;
+  background-color: #eeeeee;
   border-radius: 20px;
   margin: 10px;
   padding: 50px 0px 50px 0px;
